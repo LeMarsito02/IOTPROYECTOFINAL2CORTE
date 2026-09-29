@@ -201,7 +201,12 @@ Desde el Gestor de Librerías del Arduino IDE:
 - `OneWire`
 - `DallasTemperature`
 
-`WiFi`, `WebServer`, `ESPmDNS` y `Wire` vienen incluidas con el núcleo ESP32. Probado con los núcleos ESP32 2.0.x y 3.x.
+El HX710B no necesita librería: su protocolo se implementa en `leerHX710B()`. Las referencias IEEE de cada librería están en el [Anexo F de la Wiki](../../wiki/6.-Anexos).
+
+`WiFi`, `WebServer`, `ESPmDNS`, `Wire` y `mbedtls` vienen incluidas con el núcleo ESP32. Probado con los núcleos ESP32 2.0.x y 3.x.
+
+## 💰 Costo del prototipo
+Un nodo completo cuesta alrededor de **COP 220.700**, según precios de tiendas colombianas (YoRobotics y Electronilab) consultados el 28-sep-2026. El desglose por componente está en el [Modelo de negocio de la Wiki](../../wiki/2.7.-Modelo-de-Negocio).
 
 ## ▶️ Uso
 1. Conecta los componentes según la tabla de pines.
@@ -228,7 +233,7 @@ Este README es un resumen. El diseño completo, las justificaciones de cada umbr
 ---
 
 ## 📑 Referencias principales
-Formato IEEE. La lista completa (41 referencias) está en la [página de Referencias de la Wiki](../../wiki/Referencias).
+Formato IEEE. La lista completa (53 referencias) está en la [página de Referencias de la Wiki](../../wiki/Referencias).
 
 - M. Terán, J. Aranda, H. Carrillo, D. Mendez y C. Parra, "IoT-based system for indoor location using Bluetooth Low Energy," en *2017 IEEE COLCOM*, Cartagena, Colombia, 2017, pp. 1–6, doi: 10.1109/ColComCon.2017.8088211.
 - B. Khaleghi, A. Khamis, F. O. Karray y S. N. Razavi, "Multisensor data fusion: A review of the state-of-the-art," *Inf. Fusion*, vol. 14, no. 1, pp. 28–44, 2013, doi: 10.1016/j.inffus.2011.08.001.
