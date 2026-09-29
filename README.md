@@ -64,7 +64,7 @@ Cada sensor se conectó y probó de forma individual antes de integrarlos en un 
 </p>
 <p align="center"><em>Figura 3 — Pantalla OLED reportando en vivo el estado del sistema durante una corrida de prueba del primer corte.</em></p>
 
-<!-- Agregar aquí fotos del montaje v8 en ESP32 y capturas del tablero de control -->
+> Las fotos del montaje v8 en ESP32 y las capturas del tablero se documentan en la [sección 3 de la Wiki](../../wiki/3.-Configuración-Experimental,-Resultados-y-Análisis).
 
 ### 5. Desarrollo del firmware asistido por IA
 La lógica de control se desarrolló mediante sesiones de **pair-programming con IA**, iterando sobre el código hasta ajustarlo a los requerimientos del reto y a los umbrales validados con datos del banco de pruebas. La declaración de uso de IA exigida por el curso (herramientas consultadas, instrucciones enviadas y cómo se validaron las respuestas) está en la **[Wiki](../../wiki)**.
@@ -225,3 +225,12 @@ HX_CUENTAS_POR_KPA = (crudo_sumergido − crudo_aire) / (H × 0.0980665)
 
 ## 📚 Más información
 Este README es un resumen. El diseño completo, las justificaciones de cada umbral, los diagramas, el protocolo de pruebas con sus resultados y la declaración de uso de IA están en la **[Wiki de este repositorio](../../wiki)**. La versión del primer corte se conserva en [WaterGuard_v7.ino](WaterGuard_v7.ino).
+---
+
+## 📑 Referencias principales
+Formato IEEE. La lista completa (41 referencias) está en la [página de Referencias de la Wiki](../../wiki/Referencias).
+
+- M. Terán, J. Aranda, H. Carrillo, D. Mendez y C. Parra, "IoT-based system for indoor location using Bluetooth Low Energy," en *2017 IEEE COLCOM*, Cartagena, Colombia, 2017, pp. 1–6, doi: 10.1109/ColComCon.2017.8088211.
+- B. Khaleghi, A. Khamis, F. O. Karray y S. N. Razavi, "Multisensor data fusion: A review of the state-of-the-art," *Inf. Fusion*, vol. 14, no. 1, pp. 28–44, 2013, doi: 10.1016/j.inffus.2011.08.001.
+- R. G. Allen, L. S. Pereira, D. Raes y M. Smith, *Crop Evapotranspiration*, FAO Irrigation and Drainage Paper 56. Roma: FAO, 1998 (ecuación de Tetens y DPV).
+- Espressif Systems, *ESP32 Technical Reference Manual*, Versión 5.8, 2026.

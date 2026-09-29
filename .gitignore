@@ -1,0 +1,14 @@
+# Material de referencia con derechos de autor (enunciado, rúbrica, papers).
+# Se conserva solo en local; en la wiki se citan por DOI/URL.
+referencias/
+*.pdf
+*.xlsx
+*.xls
+
+# Arduino / sistema
+build/
+*.bin
+*.elf
+.DS_Store
+Thumbs.db
+desktop.ini
